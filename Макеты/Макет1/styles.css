@@ -1,0 +1,91 @@
+* {
+	box-sizing: border-box;
+	margin: 0px auto;
+}
+body {
+	background-color: #EBEBEB;
+	font-family: sans-serif;
+}
+.wrapper {
+	background-color: white;
+	width: 890px;
+}
+header {
+	height: 50px;
+	background-color: #F8AA03;
+	margin-bottom: 20px;
+}
+nav {
+	display: flex;
+	flex-direction: row;
+	margin-left:20px;
+}
+a {
+	padding: 15px 20px 20px 0px;
+	text-decoration: none;
+	color: #fff;
+	font-size: 18px;
+	margin: 0px 0px 20px 0px;
+}
+.active, a:hover {
+	text-decoration: underline;
+}
+.container {
+	display: flex;
+}
+main {
+	width: 530px;
+	margin: 0px 20px;
+}
+p {
+	text-align: justify;
+	font-size: 16px;
+	padding-bottom: 10px;
+}
+h1 {
+	font-size: 21px;
+	margin-bottom: 10px;
+}
+main h2 {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-size: 21px;
+}
+img {
+	width: 500px;
+	height: 360px;
+	padding-bottom: 10px;
+}
+.bee1 {
+	/* margin-top: -10px; */
+}
+table {
+	text-align: center;
+	font-size: 16px;
+	margin: 0px 0px 20px 0px;
+}
+td {
+	width: 175px;
+	border: 1px solid;
+}
+.table_header {
+	background-color: #EBEBEB;
+	font-weight: bold;
+}
+aside {
+	width: 360px;
+	margin-right: 20px;
+}
+.right_header {
+	font-size: 17px;
+	margin-bottom: 10px
+}
+footer {
+	margin-top: 20px;	
+	color: #ffffff;
+	display: flex;
+	min-height: 75px;
+	align-items: center;
+	justify-content: center;
+	background-color: #F8AA03;
+}
