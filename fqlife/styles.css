@@ -1,0 +1,244 @@
+* {
+	box-sizing: border-box;
+	margin: 0px auto;
+}
+body {
+	background-color: #ccd1d7;
+	font-family: sans-serif;
+}
+header {
+    display: flex;
+    background-color:#ccd1d7;
+}
+.head_wrapper, .footer_wrapper{
+    width: 900px;
+    text-align: center;
+    margin: 0 0 0 0;
+}
+.fq_logo {
+    margin: 0px 0px 0px 192px;
+}
+.fq_logo:hover {
+    box-shadow: 5px 5px  3px black;
+}
+.fq_head {
+    margin: 10px 0 0px 0px;
+    font-size: 24px;
+}
+h1 {
+    margin-top: 10px;
+    font-size: 44px;
+    
+}
+h1:hover{
+    text-shadow: 0 0 5px black;
+}
+.main_nav {
+    display: flex;
+    height: 44px;
+    
+}
+.main_nav a {
+    padding-top: 13px;
+    color: rgb(53, 88, 163);
+    font-weight: bold; 
+    width: 150px;
+}
+.main_nav a:hover{
+    background-color:rgb(93, 114, 185);
+    color: black;
+}
+.left_head {
+    display: block;
+}
+.date {
+    margin-top: 5px;
+    /* border: 1px solid; */
+    width: 350px;
+    height: 20px;
+}
+.contact_head {
+    /* border: 1px solid; */
+    width: 350px;
+    height: 90px;
+}
+.date {
+    font: 12px bold;
+    text-decoration: underline;
+}
+.contact_head {
+    display: flex;
+    flex-direction: column;
+    padding: 5px 0px 0px 0px;
+}
+.contact_head span {
+    margin-left: 0px;
+}
+.contact_head a {
+    color: black;
+    /* text-decoration: none; */
+    font-size: 18px;
+}
+.contact_head a:hover {
+    color:rgb(53, 88, 163);
+}
+.language {
+    /* border: 1px solid; */
+    width: 350px;
+    height: 20px;
+}
+div select {
+    width: 100px;
+    margin: 0px 0px 0px 50px;
+}
+.wrapper {
+    display: flex;
+    width: 1500px;
+    /* height: 1000px; */
+    margin: 0px auto;
+    background-color: white;
+    /* border: 1px solid; */
+}
+.left_aside {
+    width: 300px;
+    /* border: 1px solid; */
+    background-color: #EBEBEB;
+}
+main {
+    width: 900px;
+    margin: 0px auto;
+    /* border: 1px solid; */
+}
+.right_aside {
+    width: 300px;
+    /* border: 1px solid; */
+    background-color: #EBEBEB;
+}
+footer {
+    height: 100px;
+    background-color:#ccd1d7;
+}
+.donation {
+    display: block;
+    width: 200px;
+    height: 50px;
+    color: #960605;
+    border: 1px solid;
+    margin: 20px 50px;
+    text-align: center;
+    padding-top: 17px;
+    background-color: #ccd1d7;
+    text-decoration: none;
+    font-weight: bold;
+}
+.side_nav {
+    /* min-height: 300px; */
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+}
+.side_nav a{
+    width: 300px;
+    height: 50px;  
+    padding-top:17px;
+    padding-left: 50px;
+    color: rgb(53, 88, 163);
+}
+.donation:hover {
+    color: white;
+    background-color: #960605;
+}
+.side_nav a:hover {
+    background-color: rgb(93, 114, 185);
+    color: black;
+}
+.left_aside h4{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.left_aside img{
+    display: block;
+    width: 290px;
+    border: 1px solid black;
+    margin-bottom: 50px;
+}
+.left_aside img:hover{
+    width: 300px;
+    border: 2px solid black;
+}
+.footer_wrapper{
+    margin-left: 341px;
+}
+main img {
+    float: right;
+    margin-top: 100px;
+    margin-right: 50px;
+}
+main h2 {
+    text-align: center;
+    margin: 100px 0px 30px 0px;
+}
+main p {
+    text-indent: 50px;
+    text-align: justify;
+    line-height: 1.5;
+    padding: 10px 30px;
+}
+main .signature{
+    text-align: right;
+    width: 500px;
+    margin-right: 30px;
+}
+.fqname_footer {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 14px;
+}
+.developer {
+    text-align: center;
+    font-size: 10px;
+    margin-top: 10px;
+}
+.right_aside h2 {
+    margin: 30px 0px 20px 0px;
+    text-align: center;
+}
+.right_aside li{
+    text-align: left;
+    line-height: 1.5; 
+    margin-bottom: 20px;
+}
+.right_aside ul {
+    margin: 0px 20px 0px 0px;
+}
+.right_aside ul a{
+    color: rgb(93, 114, 185);
+}
+.right_aside ul a:hover {
+    color: black;
+}
+main li{
+    margin-bottom: 10px;
+}
+.main_manager {
+    /* display: block; */
+}
+.main_manager p {
+    margin-top: -20px;
+    margin-bottom: 0px;
+}
+img.manager, img.supervisor {
+    float: none;
+}
+img.team {
+    float: none;
+    width: 300px;
+    height: 300px;
+}
+.main_document img {
+    margin-left: 40px;
+    float: none;
+    width: 200px;
+    height: 300px;
+}
